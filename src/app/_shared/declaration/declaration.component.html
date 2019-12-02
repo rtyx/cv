@@ -1,0 +1,11 @@
+<div class="line" [ngClass]="'indent-' + indent">
+  <span class="bold orange">{{ modifiers }} </span>
+  <span class="purple">{{ identifier }}</span><span class="white">: </span>
+  <span class="orange">{{ type }} </span>
+  <span class="white">= </span>
+  <span *ngIf="!href" [class.green]="type === 'string'" [class.blue]="type === 'number'">
+    {{ value }}</span>
+  <a *ngIf="href" [class.green]="type === 'string'" [class.blue]="type === 'number'" [href]="href"
+     target="_blank">
+    {{ value }}</a><span class="orange">;</span>
+</div>

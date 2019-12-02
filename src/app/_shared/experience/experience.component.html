@@ -1,0 +1,41 @@
+<div class="line indent-2">
+  <span class="orange">{{ statement }} </span>
+  <span class="white">{{ identifier }} = {{ '{' }}</span>
+</div>
+
+<div class="line indent-3">
+  <span class="purple">position</span>
+  <span class="white">: </span>
+  <span class="green">'{{ position }}'</span>
+  <span class="orange">,</span>
+</div>
+
+<div class="line indent-3">
+  <span class="purple">start</span>
+  <span class="white">: </span>
+  <span class="green">'{{ start }}'</span>
+  <span class="orange">, </span>
+  <span class="purple">end</span>
+  <span class="white">: </span>
+  <span class="white italic" *ngIf="!end">undefined</span>
+  <span class="green" *ngIf="end">'{{ end }}'</span>
+  <span class="orange">,</span>
+</div>
+
+<div class="line indent-3">
+  <span class="purple">location</span>
+  <span class="white">: </span>
+  <span class="green">'{{ location }}'</span>
+  <span class="orange">,</span>
+</div>
+
+<div class="line indent-3">
+  <span class="purple">summary</span>
+  <span class="white">: </span>
+  <span class="green">`{{ summary }}`</span>
+</div>
+
+<div class="line indent-2">
+  <span class="white">{{ '}' }}</span>
+  <span class="orange">;</span>
+</div>

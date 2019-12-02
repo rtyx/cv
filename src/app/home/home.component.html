@@ -1,0 +1,453 @@
+<div class="row">
+  <div class="col-12">
+    <div class="line">
+      <span class="bold orange">export default class </span>
+      <span class="white">RafaelToledanoIllan </span>
+      <span class="bold orange">extends </span>
+      <span class="yellow">Developer </span>
+      <span class="white">{{ '{' }}</span>
+    </div>
+    <div class="line empty">
+      <span></span>
+    </div>
+    <app-declaration [indent]="1" [modifiers]="'public'" [identifier]="'statement'" [type]="'string'"
+                     [value]="'`I am passionate about technology and architecture as tools to improve the social and cultural environment. I love exploring new ideas and creative methods to do so.`'"></app-declaration>
+    <app-declaration [indent]="1" [modifiers]="'public'" [identifier]="'github'" [type]="'string'"
+                     [value]="'`https://github.com/rtyx/`'" [href]="'https://github.com/rtyx/'"></app-declaration>
+    <app-declaration [indent]="1" [modifiers]="'public'" [identifier]="'stackOverflow'" [type]="'string'"
+                     [value]="'`https://stackoverflow.com/users/5726242/rtyx/`'"
+                     [href]="'https://stackoverflow.com/users/5726242/rtyx?tab=profile'"></app-declaration>
+    <app-declaration [indent]="1" [modifiers]="'public'" [identifier]="'linkedIn'" [type]="'string'"
+                     [value]="'`https://www.linkedin.com/in/rafaeltoledano/`'"
+                     [href]="'https://www.linkedin.com/in/rafaeltoledano/'"></app-declaration>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <app-declaration [indent]="1" [modifiers]="'private'" [identifier]="'email'" [type]="'string'"
+                     [value]="'`rafaeltoledano@berkeley.edu`'"
+                     [href]="'mailto:rafaeltoledano@berkeley.edu'"></app-declaration>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <!--Languages-->
+    <div class="line indent-1">
+      <span class="bold orange">private </span>
+      <span class="purple">humanLanguages </span><span class="white">: </span>
+      <span class="white">Language[] </span>
+      <span class="white">= </span>
+      <span class="white">[</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'English'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'C2' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'Español'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'C2' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'Deutsch'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'C1' </span>
+      <span class="white">{{ '}' }}</span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="white">]</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <!--Computer languages-->
+
+    <div class="line indent-1">
+      <span class="bold orange">private </span>
+      <span class="purple">computerLanguages </span><span class="white">: </span>
+      <span class="white">Language[] </span>
+      <span class="white">= </span>
+      <span class="white">[</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'TypeScript'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'JavaScript'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'HTML'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'CSS'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'Java'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'Medium' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">lang</span>
+      <span class="white">: </span>
+      <span class="green">'Python'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'Low' </span>
+      <span class="white">{{ '}' }}</span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="white">]</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <!--Front End-->
+
+    <div class="line indent-1">
+      <span class="bold orange">private </span>
+      <span class="purple">frontEndStack </span><span class="white">: </span>
+      <span class="white">Framework[] </span>
+      <span class="white">= </span>
+      <span class="white">[</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'Angular'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'React'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'Medium' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'Vue'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'Medium' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'jQuery'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="white">]</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <!--Back End-->
+
+    <div class="line indent-1">
+      <span class="bold orange">private </span>
+      <span class="purple">frontEndStack </span><span class="white">: </span>
+      <span class="white">Framework[] </span>
+      <span class="white">= </span>
+      <span class="white">[</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'Node'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'Express'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'High' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="white">{{ '{' }} </span>
+      <span class="purple">id</span>
+      <span class="white">: </span>
+      <span class="green">'PostgreSQL'</span>
+      <span class="orange">, </span>
+      <span class="purple">level</span>
+      <span class="white">: </span>
+      <span class="green">'Medium' </span>
+      <span class="white">{{ '}' }}</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="white">]</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="yellow">constructor</span>
+      <span class="white">(</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="orange">public </span>
+      <span class="purple">ugr</span>
+      <span class="white">: UniversidadDeGranada</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="orange">public </span>
+      <span class="purple">pk</span>
+      <span class="white">: PolitechnikaKrakowska</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="orange">public </span>
+      <span class="purple">ucBerkeley</span>
+      <span class="white">: UniversityOfCaliforniaAtBerkeley</span>
+      <span class="orange">,</span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="white">) </span>
+      <span class="white">{{ '{' }}</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="purple">ugr</span>
+      <span class="white">.</span>
+      <span class="yellow">study</span>
+      <span class="white">(</span>
+      <span class="green">'BsMsArchitecture'</span>
+      <span class="white">, </span>
+      <span class="blue">2008</span>
+      <span class="white">, </span>
+      <span class="blue">2015</span>
+      <span class="white">)</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="purple">pk</span>
+      <span class="white">.</span>
+      <span class="yellow">study</span>
+      <span class="white">(</span>
+      <span class="green">'BsArchitecture'</span>
+      <span class="white">, </span>
+      <span class="blue">2008</span>
+      <span class="white">, </span>
+      <span class="blue">2015</span>
+      <span class="white">, </span>
+      <span class="green">'Erasmus'</span>
+      <span class="white">)</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line indent-2">
+      <span class="purple">ucBerkeley</span>
+      <span class="white">.</span>
+      <span class="yellow">study</span>
+      <span class="white">(</span>
+      <span class="green">'MsArchitecture'</span>
+      <span class="white">, </span>
+      <span class="blue">2008</span>
+      <span class="white">, </span>
+      <span class="blue">2015</span>
+      <span class="white">, </span>
+      <span class="green">'EAP'</span>
+      <span class="white">)</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line indent-1">
+      {{ '}' }}
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="yellow">work</span>
+      <span class="white">(): Experience[] {{ '{' }}</span>
+    </div>
+
+    <app-experience identifier="weddyPlace" position="Senior Front End Developer" start="Sep 2017"
+                    location="Berlin, Germany" summary="Lead and build the entire front end of the enterprise with Angular 5+, implementing best practices and search engine optimizations, such as server side rendering, schemas, localization, modularization or versioning.
+                    Participated in the user interface design process from the very beginning, working with a special focus on the user experience and customer journey.
+                    Used best practices in team and development work in Git (GitLab), using production, development and feature branches with their own environments, hosts and API services."></app-experience>
+
+    <app-experience identifier="vanolia" position="Junior Front End Developer" start="Jun 2017" end="Sep 2017"
+                    location="Berlin, GERMANY" summary="Built the entire front end of the enterprise through several Angular 4+ applications from scratch, implementing best practices such as lazy lloading compnent scheme, multi-language support, animations or service workers.
+Created a series of mobile apps for both Android and iOS through Ionic 3, implementing native mobile resources such as GPS, camera or storage."></app-experience>
+
+    <app-experience identifier="piviiTechnologies" start="Mar 2017" end="May 2017" location="Berlin, GERMANY"
+                    summary="Created a development environment using Python, Django and Flask templates. Implemented the entire product front end using Skeleton, Sass, jQuery and D3.js. Worked on an open source project using Vue.js"></app-experience>
+
+    <app-experience identifier="SPICEDAcademy" position="Full Stack Development Student" start="Aug 2016" end="Dec 2016"
+                    location="Berlin, GERMANY"
+                    summary="During five months in Berlin I participated as a student in a Full Stack Web Development course, focusing on languages such as JavaScript, HTML, CSS and jQuery, MV Frameworks, Node.js and SQL."></app-experience>
+
+    <app-experience identifier="ToledanoEdificaciones" [position]="['Architect', 'Project Manager']"
+                    start="Jul 2015" end="Aug 2016" location="Jaén, SPAIN" summary="Architected a residential complex of three buildings, consisting of more than 80 apartments, storage units and garage floors.
+Wrote complete construction budgets for several projects simultaneously. Spearheaded an analsis of the internal documents management system, providing new solutions for cost and time optimization"></app-experience>
+
+    <div class="line indent-2">
+      <span class="orange">return </span>
+      <span class="white">[weddyPlace, vanolia, piviiTechnologies, SPICEDAcademy, ToledanoEdificaciones]</span>
+      <span class="orange">;</span>
+    </div>
+
+    <div class="line indent-1">
+      <span class="white">{{ '}' }}</span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+    <div class="line empty">
+      <span></span>
+    </div>
+
+  </div>
+</div>
