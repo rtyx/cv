@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --output-path docs --base-href /cv/ && git add . && git commit -m \"deployed\" && git push"
+    "github-deploy": "ng build --prod --output-path docs --base-href /cv/ && git add . && git commit -m \"deployed\" && git push",
+    "aws-deploy": "ng build --prod --output-path aws"
   },
   "private": true,
   "dependencies": {
