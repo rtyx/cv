@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { LineCounterComponent } from './line-counter/line-counter.component';
 import { DeclarationComponent } from './declaration/declaration.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { LanguageLineComponent } from './language-line/language-line.component';
+import { FrameworkLineComponent } from './framework-line/framework-line.component';
 
 
 @NgModule({
@@ -10,6 +12,8 @@ import { ExperienceComponent } from './experience/experience.component';
     LineCounterComponent,
     DeclarationComponent,
     ExperienceComponent,
+    LanguageLineComponent,
+    FrameworkLineComponent,
   ],
   imports: [
     CommonModule
@@ -17,7 +21,9 @@ import { ExperienceComponent } from './experience/experience.component';
   exports: [
     LineCounterComponent,
     DeclarationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    LanguageLineComponent,
+    FrameworkLineComponent
   ]
 })
 export class SharedModule {

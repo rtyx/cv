@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "tech-cv"
+  "defaultProject": "tech-cv",
+  "cli": {
+    "analytics": "a42538c1-d510-4419-951f-90bc3b919c59"
+  }
 }
